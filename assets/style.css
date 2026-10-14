@@ -40,3 +40,22 @@ footer{border-top:1px solid var(--line);background:#fff;padding:24px max(22px,ca
 .service-card>strong{font-size:23px;color:var(--purple);margin:0 0 16px}.service-buy{display:block;text-align:center;text-decoration:none;width:100%;margin-top:auto;font-size:12px}.v4-card{max-width:370px}.services-note{text-align:center;color:#8b919c;font-size:12px;margin-top:15px}
 @media(max-width:760px){.services-section{margin:0 20px;padding-top:28px}.services-heading h2{font-size:24px}.service-grid,.service-grid-3{grid-template-columns:repeat(2,minmax(0,1fr))}.service-card{padding:16px}.service-group>h3{font-size:18px}}
 @media(max-width:430px){.service-grid,.service-grid-3{grid-template-columns:1fr}.v4-card{max-width:none}.service-card p{min-height:0}}
+
+
+/* Customer trust/support section — explicitly not an official eNAMAD badge */
+.trust-section{padding-top:12px;padding-bottom:42px}
+.trust-panel{background:linear-gradient(135deg,#fff 0%,#f7f3ff 100%);border:1px solid #e7ddff;border-radius:26px;padding:clamp(22px,4vw,42px);box-shadow:0 18px 45px rgba(65,32,130,.07)}
+.trust-heading{text-align:center;max-width:690px;margin:0 auto 28px}
+.trust-heading h2{font-size:clamp(23px,3vw,32px);margin:8px 0 10px}
+.trust-heading p{font-size:14px;line-height:2;color:#6f7482;margin:0}
+.trust-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.trust-item{background:#fff;border:1px solid #ece8f6;border-radius:18px;padding:22px 18px;text-align:center}
+.trust-icon{width:54px;height:54px;border-radius:17px;display:grid;place-items:center;margin:0 auto 12px;background:#f0eaff;font-size:27px}
+.trust-item h3{font-size:16px;margin:0 0 8px}
+.trust-item p{font-size:12px;line-height:2;color:#7d8491;margin:0}
+.trust-disclaimer{margin:20px auto 0;max-width:760px;text-align:center;color:#737987;font-size:11px;line-height:1.9;background:#f3f4f7;border-radius:12px;padding:10px 14px}
+@media(max-width:680px){.trust-grid{grid-template-columns:1fr}.trust-item{padding:18px}.trust-heading{margin-bottom:20px}.trust-section{padding-bottom:28px}}
+
+
+/* Custom trust badge (not an official eNAMAD mark) */
+.trust-badge-wrap{display:flex;flex-direction:column;align-items:center;gap:8px;margin:24px auto 8px}.trust-badge{width:150px;min-height:150px;border:3px solid #7c3aed;border-radius:50%;background:radial-gradient(circle at 50% 35%,#fff 0%,#f5f0ff 65%,#e9ddff 100%);box-shadow:0 8px 24px rgba(124,58,237,.16),inset 0 0 0 5px #fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;text-align:center;color:#4c1d95;padding:16px}.trust-badge-icon{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:#7c3aed;color:white;font-size:24px;font-weight:900}.trust-badge-title{font-size:14px;font-weight:900}.trust-badge-subtitle{font-size:11px;color:#6d28d9}.trust-badge-note{font-size:11px;color:#6b7280;text-align:center;margin:0}
